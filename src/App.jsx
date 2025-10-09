@@ -1,6 +1,6 @@
 import "./App.css";
 import About from "./components/About";
-import Contact from "./components/Contact.jsx";
+// import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
@@ -17,7 +17,6 @@ function App() {
       <Skill />
       <Projects />
       <Resume />
-      <Contact />
       <Footer />
     </>
   );
