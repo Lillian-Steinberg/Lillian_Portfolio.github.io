@@ -15,7 +15,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-2xl font-bold cursor-pointer">
           <Link to="home" smooth={true} offset={-70} duration={500}>
-            Saam.js
+            Lillian Steinberg
           </Link>
         </div>
 
