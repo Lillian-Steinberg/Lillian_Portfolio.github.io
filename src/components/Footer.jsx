@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-white py-6">
       <div className="container mx-auto px-4 text-center">
+        {/*
         <div className="flex justify-center space-x-6 mb-4">
           {/* Social Media Links */}
           <a
@@ -38,6 +39,7 @@ const Footer = () => {
             Saam Sheron
           </a>
         </p>
+        */}
       </div>
     </footer>
   );
