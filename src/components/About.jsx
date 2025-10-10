@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="py-16 bg-[#FAFAFA]">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-primary mb-6 text-center">
-          About Me
+          AboutMe
         </h1>
         <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-8 md:gap-0">
           {/* Left Column - Image */}
