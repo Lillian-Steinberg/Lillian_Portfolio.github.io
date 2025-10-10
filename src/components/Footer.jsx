@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 text-center">
         {/*
         <div className="flex justify-center space-x-6 mb-4">
-          {/* Social Media Links */}
+          //Social Media Links
           <a
             href="https://github.com/saam-rgb"
             target="_blank"
