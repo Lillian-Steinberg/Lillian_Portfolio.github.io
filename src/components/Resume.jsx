@@ -99,40 +99,25 @@ const Resume = () => {
               alt="Saam Sheron"
               className="rounded-full object-cover w-48 h-48 mx-auto mb-6 border-4 border-primary"
             />
-            <p className="text-xl font-medium">Saam Sheron</p>
+            <p className="text-xl font-medium">Lillian Steinberg</p>
             <p className="text-lg text-secondary">
-              MERN Stack Developer | Software Developer
+              3D Renderer
+            </p>
+            <p className="text-lg text-secondary">
+              Software Developer
             </p>
             <a
-              href="mailto:saam.sheron@example.com"
+              href="mailto:LillianKSteinberg@gmail.com"
               className="text-lg text-primary mt-4 block">
-              saamsallvin@gmail.com
+              LillianKSteinberg@gmail.com
             </a>
             {/* Social Links */}
             <div className="flex justify-center space-x-6 mt-6">
               <a
-                href="https://www.linkedin.com/in/saam-sheron"
+                href="https://www.linkedin.com/in/lillianksteinberg/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <FaLinkedin className="text-2xl text-[#0077B5] hover:text-secondary" />
-              </a>
-              <a
-                href="https://github.com/saam-rgb"
-                target="_blank"
-                rel="noopener noreferrer">
-                <FaGithub className="text-2xl text-[#333] hover:text-secondary" />
-              </a>
-              <a
-                href="https://www.instagram.com/saam_sheron"
-                target="_blank"
-                rel="noopener noreferrer">
-                <FaInstagram className="text-2xl text-[#E4405F] hover:text-secondary" />
-              </a>
-              <a
-                href="https://dev.to/saamsheron"
-                target="_blank"
-                rel="noopener noreferrer">
-                <FaDev className="text-2xl  hover:text-secondary" />
               </a>
             </div>
           </div>
