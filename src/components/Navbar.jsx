@@ -54,7 +54,7 @@ const Navbar = () => {
                 duration={500}
                 className="block hover:text-secondary cursor-pointer transition duration-300"
                 onClick={() => setIsOpen(false)}>
-                About
+                Work
               </Link>
             </li>
             <li className="py-2 lg:py-0">
@@ -65,7 +65,7 @@ const Navbar = () => {
                 duration={500}
                 className="block hover:text-secondary cursor-pointer transition duration-300"
                 onClick={() => setIsOpen(false)}>
-                Projects
+                About
               </Link>
             </li>
             <li className="py-2 lg:py-0">
@@ -76,7 +76,7 @@ const Navbar = () => {
                 duration={500}
                 className="block hover:text-secondary cursor-pointer transition duration-300"
                 onClick={() => setIsOpen(false)}>
-                Resume
+                Skills
               </Link>
             </li>
           </ul>
