@@ -33,7 +33,7 @@ const Projects = () => {
     <section id="projects" className="py-16 bg-lightgray">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10 text-primary">
-          My Projects
+            Work
         </h2>
 
         {/* Category Filter Buttons */}
@@ -45,7 +45,7 @@ const Projects = () => {
                 : "bg-white text-primary"
             }`}
             onClick={() => filterProjects("all")}>
-            All Projects
+            Product
           </button>
           <button
             className={`px-6 py-2 mx-2 rounded ${
@@ -54,7 +54,7 @@ const Projects = () => {
                 : "bg-white text-primary"
             }`}
             onClick={() => filterProjects("frontend")}>
-            Frontend
+            Packaging
           </button>
           <button
             className={`px-6 py-2 mx-2 rounded ${
@@ -63,7 +63,7 @@ const Projects = () => {
                 : "bg-white text-primary"
             }`}
             onClick={() => filterProjects("fullStack")}>
-            Full Stack
+            Lifestyle
           </button>
           <button
             className={`px-6 py-2 mx-2 rounded ${
@@ -72,7 +72,7 @@ const Projects = () => {
                 : "bg-white text-primary"
             }`}
             onClick={() => filterProjects("backend")}>
-            Backend
+            Technical
           </button>
           <button
             className={`px-6 py-2 mx-2 rounded ${
@@ -81,7 +81,7 @@ const Projects = () => {
                 : "bg-white text-primary"
             }`}
             onClick={() => filterProjects("uiUX")}>
-            UI/UX
+            Animation
           </button>
         </div>
 
