@@ -9,16 +9,13 @@ const HeroSection = () => {
           {/* Left Section */}
           <div className="md:w-1/2 text-center md:text-left ">
             <h1 className="text-4xl font-bold text-secondary mb-4 md:mt-0 mt-6 ">
-              Lillian Steinberg
+              Product Rendering | 3D Interiors | Technical Animation
             </h1>
-            <p className="text-xl font-semibold text-[#606060] mb-4">
-              Software Developer. UI Designer
-            </p>
             <p className="text-secondary mb-6 text-justify">
-              I believe great things can be achieved through the use of
-              technology and research. But those are merely the tools. Behind
-              the tools are the people. Teamwork and passion, those are what
-              matter the most.
+              Based in Rochester, New York. 
+              Current Senior Multimedia Specialist for Vine Creative Studios at Partners and Napier. 
+              Alumni from Rochester Institute of Technology, and former Adjunct Professor. 
+              3D designer with a focus and specialty on e-commerce and interior design, and specialty interest in luxury rendering and animation. 
             </p>
             {/* Call to Action Button */}
             <a
