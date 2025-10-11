@@ -15,7 +15,7 @@ const HeroSection = () => {
               Based in Rochester, New York. 
               Current Senior Multimedia Specialist for Vine Creative Studios at Partners and Napier. 
               Alumni from Rochester Institute of Technology, and former Adjunct Professor. 
-              3D designer with a focus and specialty on e-commerce and interior design, and specialty interest in luxury rendering and animation. 
+              3D designer with a focus on e-commerce and interior design, and specialty interest in luxury rendering and animation. 
             </p>
             {/* Call to Action Button */}
             <a
