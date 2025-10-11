@@ -48,7 +48,7 @@ const Navbar = () => {
             </li>
             <li className="py-2 lg:py-0">
               <Link
-                to="about"
+                to="projects"
                 smooth={true}
                 offset={-70}
                 duration={500}
@@ -59,7 +59,7 @@ const Navbar = () => {
             </li>
             <li className="py-2 lg:py-0">
               <Link
-                to="projects"
+                to="about"
                 smooth={true}
                 offset={-70}
                 duration={500}
