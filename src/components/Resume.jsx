@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "../assets/images/dp-kanch.jpg";
+import AboutImage from "../assets/images/headshot_opt2.png";
 import { FaDev, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Resume = () => {
