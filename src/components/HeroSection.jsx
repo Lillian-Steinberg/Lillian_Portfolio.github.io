@@ -9,7 +9,7 @@ const HeroSection = () => {
           {/* Left Section */}
           <div className="md:w-1/2 text-center md:text-left ">
             <h1 className="text-4xl font-bold text-secondary mb-4 md:mt-0 mt-6 ">
-              Saam Sheron
+              Lillian Steinberg
             </h1>
             <p className="text-xl font-semibold text-[#606060] mb-4">
               Software Developer. UI Designer
@@ -27,7 +27,7 @@ const HeroSection = () => {
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-primary text-white rounded-lg shadow-md hover:bg-[#F4F4F4] hover:text-primary hover:border-primary border transition-all"
               title="Download Resume">
-              Download Resume
+              Watch Reel
             </a>
           </div>
 
