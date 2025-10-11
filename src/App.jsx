@@ -14,7 +14,6 @@ function App() {
       <Navbar />
       <HeroSection />
       <Projects />
-      <About />
       <Skill />
       <Resume />
       <Footer />
