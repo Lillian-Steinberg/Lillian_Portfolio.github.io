@@ -65,7 +65,7 @@ const Navbar = () => {
                 duration={500}
                 className="block hover:text-secondary cursor-pointer transition duration-300"
                 onClick={() => setIsOpen(false)}>
-                About
+                Skills
               </Link>
             </li>
             <li className="py-2 lg:py-0">
