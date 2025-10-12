@@ -10,6 +10,7 @@ import {
 import firebaseImage from "../assets/images/maya_logo.png";
 import reduxImage from "../assets/images/substance_logo.png";
 import figmaImage from "../assets/images/AE_logo.png";
+import photoshopImage from "../assets/images/photoshop_logo.png";
 import expressImage from "../assets/images/C4D_Logo_b.png";
 import mongodbImage from "../assets/images/keyshot_logo.png";
 
@@ -72,6 +73,17 @@ const Skill = () => {
             </h3>
           </div>
 
+          {/* Photoshop */}
+          <div className="text-center">
+            <img
+              src={photoshopImage}
+              alt="Figma"
+              className="w-20 h-20 mx-auto mb-4"
+            />
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              Adobe Photoshop
+            </h3>
+          
           {/* AE */}
           <div className="text-center">
             <img
