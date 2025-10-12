@@ -23,7 +23,6 @@ const Skill = () => {
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
           
-
           {/* C4D */}
           <div className="text-center">
             <img
@@ -46,7 +45,6 @@ const Skill = () => {
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
               Keyshot Studio
             </h3>
-          
           </div>
 
           {/* Maya */}
@@ -83,7 +81,8 @@ const Skill = () => {
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
               Adobe Photoshop
             </h3>
-          
+          </div>
+  
           {/* AE */}
           <div className="text-center">
             <img
