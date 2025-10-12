@@ -10,7 +10,7 @@ import {
 import firebaseImage from "../assets/images/maya_logo.png";
 import reduxImage from "../assets/images/substance_logo.png";
 import figmaImage from "../assets/images/AE_logo.png";
-import expressImage from "../assets/images/C4D_logo_b.png";
+import expressImage from "../assets/images/C4D_Logo_b.png";
 import mongodbImage from "../assets/images/keyshot_logo.png";
 
 const Skill = () => {
