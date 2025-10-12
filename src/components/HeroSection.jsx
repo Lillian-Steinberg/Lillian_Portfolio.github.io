@@ -1,5 +1,5 @@
 import React from "react";
-import HomeImage from "../assets/images/LillianSteinberg_Headshot_Recolored_2.png";
+import HomeImage from "../assets/images/LillianSteinberg_Headshot_Recolored_extended.png";
 
 const HeroSection = () => {
   return (
@@ -23,7 +23,7 @@ const HeroSection = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-primary text-white rounded-lg shadow-md hover:bg-[#F4F4F4] hover:text-primary hover:border-primary border transition-all"
-              title="Download Resume">
+              title="Watch Reel">
               Watch Reel
             </a>
           </div>
