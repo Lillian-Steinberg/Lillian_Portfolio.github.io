@@ -13,6 +13,7 @@ import figmaImage from "../assets/images/AE_logo.png";
 import photoshopImage from "../assets/images/photoshop_logo.png";
 import expressImage from "../assets/images/C4D_Logo_b.png";
 import mongodbImage from "../assets/images/keyshot_logo.png";
+import octaneImage from "../assets/images/octane_logo.png";
 
 const Skill = () => {
   return (
@@ -44,6 +45,18 @@ const Skill = () => {
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
               Keyshot Studio
+            </h3>
+          </div>
+
+          {/* octane */}
+          <div className="text-center">
+            <img
+              src={octaneImage}
+              alt="Firebase"
+              className="w-20 h-20 mx-auto mb-4"
+            />
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              Octane Render
             </h3>
           </div>
 
