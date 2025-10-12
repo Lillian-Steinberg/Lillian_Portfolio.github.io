@@ -7,76 +7,23 @@ import {
   FaNodeJs,
   FaGitAlt,
 } from "react-icons/fa";
-import firebaseImage from "../assets/images/firebase.png";
-import reduxImage from "../assets/images/redux.png";
-import figmaImage from "../assets/images/figma.webp";
-import expressImage from "../assets/images/express.png";
-import mongodbImage from "../assets/images/mongodb.png";
+import firebaseImage from "../assets/images/maya_logo.png";
+import reduxImage from "../assets/images/substance_logo.png";
+import figmaImage from "../assets/images/AE_logo.png";
+import expressImage from "../assets/images/C4D_logo_b.png";
+import mongodbImage from "../assets/images/keyshot_logo.png";
 
 const Skill = () => {
   return (
     <section id="skills" className="py-16 bg-lightgray">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10 text-primary">
-          My Skills
+          Technical Skills
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
-          {/* HTML */}
-          <div className="text-center">
-            <FaHtml5 className="w-20 h-20 mx-auto mb-4 text-orange-600" />
-            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              HTML
-            </h3>
-            <p className="text-sm text-secondary">
-              Building structured web content
-            </p>
-          </div>
+          
 
-          {/* CSS */}
-          <div className="text-center">
-            <FaCss3Alt className="w-20 h-20 mx-auto mb-4 text-blue-600" />
-            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              CSS
-            </h3>
-            <p className="text-sm text-secondary">
-              Styling and layout for modern web designs
-            </p>
-          </div>
-
-          {/* JavaScript */}
-          <div className="text-center">
-            <FaJs className="w-20 h-20 mx-auto mb-4 text-yellow-600" />
-            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              JavaScript
-            </h3>
-            <p className="text-sm text-secondary">
-              Building interactive and dynamic web applications
-            </p>
-          </div>
-
-          {/* React */}
-          <div className="text-center">
-            <FaReact className="w-20 h-20 mx-auto mb-4 text-blue-400" />
-            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              React
-            </h3>
-            <p className="text-sm text-secondary">
-              Building interactive UIs with state management
-            </p>
-          </div>
-
-          {/* Node.js */}
-          <div className="text-center">
-            <FaNodeJs className="w-20 h-20 mx-auto mb-4 text-green-600" />
-            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              Node.js
-            </h3>
-            <p className="text-sm text-secondary">
-              Building scalable server-side applications
-            </p>
-          </div>
-
-          {/* Express */}
+          {/* C4D */}
           <div className="text-center">
             <img
               src={expressImage}
@@ -84,15 +31,11 @@ const Skill = () => {
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              Express.js
+              Maxon Cinema 4D
             </h3>
-            <p className="text-sm text-secondary">
-              Lightweight web framework for building robust APIs and
-              applications.
-            </p>
           </div>
 
-          {/* MongoDB */}
+          {/* Keyshot */}
           <div className="text-center">
             <img
               src={mongodbImage}
@@ -100,15 +43,12 @@ const Skill = () => {
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              MongoDB
+              Keyshot Studio
             </h3>
-            <p className="text-sm text-secondary">
-              NoSQL database for storing and managing high-volume data
-              efficiently.
-            </p>
+          
           </div>
 
-          {/* Firebase */}
+          {/* Maya */}
           <div className="text-center">
             <img
               src={firebaseImage}
@@ -116,14 +56,11 @@ const Skill = () => {
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              Firebase
+              Autodesk Maya
             </h3>
-            <p className="text-sm text-secondary">
-              Backend-as-a-Service for fast app development
-            </p>
           </div>
 
-          {/* Redux */}
+          {/* substance */}
           <div className="text-center">
             <img
               src={reduxImage}
@@ -131,25 +68,11 @@ const Skill = () => {
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              Redux
+              Substance Painter
             </h3>
-            <p className="text-sm text-secondary">
-              State management for React applications
-            </p>
           </div>
 
-          {/* Git */}
-          <div className="text-center">
-            <FaGitAlt className="w-20 h-20 mx-auto mb-4 text-orange-500" />
-            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              Git
-            </h3>
-            <p className="text-sm text-secondary">
-              Version control for collaborative software development
-            </p>
-          </div>
-
-          {/* Figma */}
+          {/* AE */}
           <div className="text-center">
             <img
               src={figmaImage}
@@ -157,11 +80,8 @@ const Skill = () => {
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              Figma
+              Adobe After Affects
             </h3>
-            <p className="text-sm text-secondary">
-              UI/UX design and prototyping tool
-            </p>
           </div>
         </div>
       </div>
