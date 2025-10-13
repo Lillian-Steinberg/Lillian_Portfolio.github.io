@@ -1,5 +1,5 @@
 import React from "react";
-import HomeImage from "../assets/images/LillianSteinberg_Headshot_Recolored_extended.png";
+import HomeImage from "../assets/images/LillianSteinberg_Headshot_Recolored_extended_2.jpg";
 
 const HeroSection = () => {
   return (

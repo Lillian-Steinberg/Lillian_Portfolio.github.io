@@ -59,7 +59,7 @@ const Navbar = () => {
             </li>
             <li className="py-2 lg:py-0">
               <Link
-                to="about"
+                to="skills"
                 smooth={true}
                 offset={-70}
                 duration={500}
