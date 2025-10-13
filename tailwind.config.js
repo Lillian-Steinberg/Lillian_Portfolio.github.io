@@ -7,6 +7,9 @@ export default {
         primary: "#4d1d1d",
         secondary: "0a0a0a",
       },
+      fontFamily: {
+        serif: ['"Calisto MT"', 'Georgia', 'serif'],
+      },
     },
   },
   plugins: [],
