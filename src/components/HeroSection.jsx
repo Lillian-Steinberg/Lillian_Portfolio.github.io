@@ -25,7 +25,7 @@ const HeroSection = () => {
           Alumni from Rochester Institute of Technology, and former Adjunct Professor. 
           3D designer with a focus on e-commerce and interior design, and specialty interest in luxury rendering and animation.
         </p>
-
+        {/*  THIS IS THE WATCH REEL BUTTON
         <a
           href="/Saam-Sheron-Software-dev.pdf"
           target="_blank"
@@ -34,6 +34,7 @@ const HeroSection = () => {
         >
           Watch Reel
         </a>
+        */}
       </div>
     </section>
   );

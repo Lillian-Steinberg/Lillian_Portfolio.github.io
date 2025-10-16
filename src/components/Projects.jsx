@@ -86,11 +86,17 @@ const Projects = () => {
       </div>
 
       {lightboxItem && (
-  <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
-    <div className="relative max-w-4xl w-full">
+  <div
+    className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4"
+    onClick={() => setLightboxItem(null)} // click background to close
+  >
+    <div
+      className="relative max-w-5xl w-full flex justify-center items-center"
+      onClick={(e) => e.stopPropagation()} // prevent accidental close
+    >
       {/* Close Button */}
       <button
-        className="absolute top-2 right-2 text-white text-3xl z-50"
+        className="absolute top-4 right-4 text-white text-3xl z-50"
         onClick={() => setLightboxItem(null)}
       >
         <IoClose />
@@ -100,14 +106,14 @@ const Projects = () => {
         <img
           src={lightboxItem.src}
           alt=""
-          className="w-full h-auto rounded shadow-lg"
+          className="max-h-screen w-auto h-auto rounded shadow-lg object-contain"
         />
       ) : (
         <video
           src={lightboxItem.src}
           controls
           autoPlay
-          className="w-full h-auto rounded shadow-lg relative z-10"
+          className="max-h-screen w-auto h-auto rounded shadow-lg object-contain"
         />
       )}
     </div>
