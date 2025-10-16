@@ -32,7 +32,7 @@ const Projects = () => {
   const categories = Object.keys(groupedMedia);
 
   return (
-    <section id="projects" className="py-16 bg-lightgray">
+    <section id="projects" className="py-16 bg-[#fff7eb]">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10 text-primary">
           Work

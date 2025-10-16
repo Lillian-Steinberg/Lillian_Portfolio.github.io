@@ -4,7 +4,7 @@ import { FaDev, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Resume = () => {
   return (
-    <section id="resume" className="py-20 bg-light-gray">
+    <section id="resume" className="py-20 bg-[#fff7eb]">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-primary mb-6 text-center">
           Contact

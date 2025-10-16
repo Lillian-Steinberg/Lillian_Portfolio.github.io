@@ -3,7 +3,7 @@ import AboutImage from "../assets/images/headshot_opt2.png";
 
 const About = () => {
   return (
-    <section id="about" className="py-16 bg-[#FAFAFA]">
+    <section id="about" className="py-16 bg-[#e6e0da]">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-primary mb-6 text-center">
           AboutMe

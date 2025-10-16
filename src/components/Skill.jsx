@@ -7,17 +7,18 @@ import {
   FaNodeJs,
   FaGitAlt,
 } from "react-icons/fa";
-import firebaseImage from "../assets/images/maya_logo.png";
-import reduxImage from "../assets/images/substance_logo.png";
-import figmaImage from "../assets/images/AE_logo.png";
+import maya from "../assets/images/maya_logo.png";
+import substance from "../assets/images/substance_logo.png";
+import ae from "../assets/images/AE_logo.png";
 import photoshopImage from "../assets/images/photoshop_logo.png";
-import expressImage from "../assets/images/C4D_Logo_b.png";
-import mongodbImage from "../assets/images/keyshot_logo.png";
+import c4d from "../assets/images/C4D_Logo_b.png";
+import keyshot from "../assets/images/keyshot_logo.png";
 import octaneImage from "../assets/images/octane_logo.png";
+import firefly from "../assets/images/fireflylogo.png";
 
 const Skill = () => {
   return (
-    <section id="skills" className="py-16 bg-lightgray">
+    <section id="skills" className="py-16 bg-[#fff7eb]">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10 text-primary">
           Technical Skills
@@ -27,8 +28,8 @@ const Skill = () => {
           {/* C4D */}
           <div className="text-center">
             <img
-              src={expressImage}
-              alt="Firebase"
+              src={c4d}
+              alt="C4D"
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
@@ -39,8 +40,8 @@ const Skill = () => {
           {/* Keyshot */}
           <div className="text-center">
             <img
-              src={mongodbImage}
-              alt="Firebase"
+              src={keyshot}
+              alt="Keyshot"
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
@@ -63,8 +64,8 @@ const Skill = () => {
           {/* Maya */}
           <div className="text-center">
             <img
-              src={firebaseImage}
-              alt="Firebase"
+              src={maya}
+              alt="maya"
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
@@ -75,8 +76,8 @@ const Skill = () => {
           {/* substance */}
           <div className="text-center">
             <img
-              src={reduxImage}
-              alt="Redux"
+              src={substance}
+              alt="substance"
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
@@ -99,12 +100,23 @@ const Skill = () => {
           {/* AE */}
           <div className="text-center">
             <img
-              src={figmaImage}
+              src={ae}
               alt="Figma"
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
               Adobe After Affects
+            </h3>
+          </div>
+          {/* firefly */}
+          <div className="text-center">
+            <img
+              src={firefly}
+              alt="Firefly"
+              className="w-20 h-20 mx-auto mb-4"
+            />
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              Adobe Firefly
             </h3>
           </div>
         </div>
