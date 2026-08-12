@@ -15,6 +15,7 @@ import c4d from "../assets/images/C4D_Logo_b.png";
 import keyshot from "../assets/images/keyshot_logo.png";
 import octaneImage from "../assets/images/octane_logo.png";
 import firefly from "../assets/images/fireflylogo.png";
+import runway from "../assets/images/runway-ai-icon.png";
 
 const Skill = () => {
   return (
@@ -46,6 +47,18 @@ const Skill = () => {
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
               Keyshot Studio
+            </h3>
+          </div>
+
+          {/* runway */}
+          <div className="text-center">
+            <img
+              src={runway}
+              alt="Runway"
+              className="w-20 h-20 mx-auto mb-4"
+            />
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              Runway AI
             </h3>
           </div>
 
