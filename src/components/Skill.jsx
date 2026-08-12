@@ -102,7 +102,7 @@ const Skill = () => {
           <div className="text-center">
             <img
               src={photoshopImage}
-              alt="Figma"
+              alt="Photoshop"
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
@@ -114,11 +114,11 @@ const Skill = () => {
           <div className="text-center">
             <img
               src={ae}
-              alt="Figma"
+              alt="AE"
               className="w-20 h-20 mx-auto mb-4"
             />
             <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
-              Adobe After Affects
+              Adobe After Effects
             </h3>
           </div>
           {/* firefly */}

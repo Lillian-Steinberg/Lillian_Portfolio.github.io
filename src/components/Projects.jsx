@@ -3,6 +3,10 @@ import { IoClose } from "react-icons/io5";
 
 
 const Projects = () => {
+  const youtubeVideo = {
+  src: "https://www.youtube.com/embed/HzrWgoBawng",
+  thumbnail: "https://img.youtube.com/vi/HzrWgoBawng/hqdefault.jpg",
+  type: "youtube"};
   const [selectedCategory, setSelectedCategory] = useState("Animation");
   const categoryOrder = ["Animation", "Product", "Lifestyle", "Packaging", "Technical"];
   const [groupedMedia, setGroupedMedia] = useState({});
@@ -25,6 +29,9 @@ const Projects = () => {
         type: path.endsWith(".mp4") ? "video" : "image",
       });
     });
+
+    grouped["Animation"] = grouped["Animation"] || [];
+    grouped["Animation"].push(youtubeVideo);
 
     setGroupedMedia(grouped);
   }, []);
@@ -72,6 +79,19 @@ const Projects = () => {
                   className="w-full object-contain rounded-lg"
                   loading="lazy"
                 />
+              ) : item.type === "youtube" ? (
+                <div className="relative">
+                  <img
+                    src={item.thumbnail}
+                    alt="YouTube animation"
+                    className="w-full object-contain rounded-lg"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="bg-black/70 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl">
+                      ▶
+                    </div>
+                  </div>
+                </div>
               ) : (
                 <video
                   src={item.src}
@@ -108,7 +128,15 @@ const Projects = () => {
           alt=""
           className="max-h-screen w-auto h-auto rounded shadow-lg object-contain"
         />
-      ) : (
+      ) : lightboxItem.type === "youtube" ? (
+        <iframe
+          src={`${lightboxItem.src}?autoplay=1`}
+          title="YouTube video player"
+          className="w-full aspect-video rounded shadow-lg"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+      ) :(
         <video
           src={lightboxItem.src}
           controls
