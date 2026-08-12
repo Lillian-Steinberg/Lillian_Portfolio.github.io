@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("Product");
-  const categoryOrder = ["Product", "Lifestyle", "Packaging", "Technical", "Animation"];
+  const categoryOrder = ["Animation", "Product", "Lifestyle", "Packaging", "Technical"];
   const [groupedMedia, setGroupedMedia] = useState({});
   const [lightboxItem, setLightboxItem] = useState(null); // Currently selected media for lightbox
 
