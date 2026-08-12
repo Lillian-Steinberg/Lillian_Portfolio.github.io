@@ -3,10 +3,18 @@ import { IoClose } from "react-icons/io5";
 
 
 const Projects = () => {
-  const youtubeVideo = {
-  src: "https://www.youtube.com/embed/HzrWgoBawng",
-  thumbnail: "https://img.youtube.com/vi/HzrWgoBawng/hqdefault.jpg",
-  type: "youtube"};
+  const youtubeVideos = [
+  {
+    src: "https://www.youtube.com/embed/HzrWgoBawng",
+    thumbnail: "https://img.youtube.com/vi/HzrWgoBawng/hqdefault.jpg",
+    type: "youtube",
+  },
+  {
+    src: "https://www.youtube.com/embed/ZwAvnaG-hHE",
+    thumbnail: "https://img.youtube.com/vi/ZwAvnaG-hHE/hqdefault.jpg",
+    type: "youtube",
+  },
+];
   const [selectedCategory, setSelectedCategory] = useState("Animation");
   const categoryOrder = ["Animation", "Product", "Lifestyle", "Packaging", "Technical"];
   const [groupedMedia, setGroupedMedia] = useState({});
@@ -31,7 +39,7 @@ const Projects = () => {
     });
 
     grouped["Animation"] = grouped["Animation"] || [];
-    grouped["Animation"].push(youtubeVideo);
+    grouped["Animation"].push(...youtubeVideos);
 
     setGroupedMedia(grouped);
   }, []);
